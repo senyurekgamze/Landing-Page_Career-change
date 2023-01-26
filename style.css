@@ -1,0 +1,97 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/555/original/jan2018.creating_opportunities_940x485.jpg?1674741134");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 22px;
+  line-height: 48px;
+  margin: 0;
+  text-align: left;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px auto;
+  margin: 30px 30px;
+  background-color: rgba(255, 255, 255, 0.628);
+}
+
+p {
+  font-size: 18px;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin: 10px 0;
+  color: black;
+  font-size: 16px;
+}
+
+button {
+  display: grid;
+  margin: auto;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #1b2c3c;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #1b2c3c;
+  text-align: center;
+}
+
+button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #1b2c3c;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.books-heading {
+  text-align: center;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+}
+
+.book-image {
+  border-radius: 5px;
+}
+
+.book-image:hover {
+  filter: brightness(0.75);
+}
+.book-image-wrapper {
+  justify-self: center;
+  padding: 4%;
+  position: relative;
+}
+
+@media (max-width: 650px) {
+  .books-grid {
+    grid-template-columns: 100%;
+  }
+}
