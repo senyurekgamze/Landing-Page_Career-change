@@ -100,4 +100,12 @@ button:active {
   p {
     font-size: 18px;
   }
+
+  button {
+    font-size: 12px;
+  }
+
+  .books-grid {
+    grid-template-columns: 100%;
+  }
 }
