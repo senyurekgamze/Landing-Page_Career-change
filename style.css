@@ -1,35 +1,35 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/555/original/jan2018.creating_opportunities_940x485.jpg?1674741134");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/065/723/original/pexels-mali-maeder-246658.jpg?1675465629");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 h1 {
   color: white;
-  font-size: 22px;
-  line-height: 48px;
-  margin: 0;
+  font-size: 42px;
+  line-height: 80px;
   text-align: left;
+  margin-top: 40px;
 }
 
 h2 {
   color: black;
-  font-size: 24px;
-  line-height: 48px;
-  margin: 0;
+  font-size: 30px;
+  line-height: 80px;
   text-align: center;
 }
 
 .container {
   max-width: 600px auto;
-  margin: 30px 20px;
-  background-color: rgba(255, 255, 255, 0.628);
+  margin: 20px 40px;
+  background-color: rgba(255, 255, 255, 0.602);
+  border-radius: 10px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 24px;
+
   color: black;
-  font-weight: 100;
   text-align: center;
 }
 
@@ -45,7 +45,7 @@ button {
   margin: auto;
   padding: 10px 20px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1px;
   text-decoration: none;
   color: black;
@@ -90,8 +90,16 @@ button:active {
   position: relative;
 }
 
-@media (max-width: 650px) {
-  .books-grid {
-    grid-template-columns: 100%;
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
   }
 }
